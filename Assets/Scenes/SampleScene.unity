@@ -465,7 +465,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1387025655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44e1b0d16046c8d49a54ae787cb28228, type: 3}
+  m_Script: {fileID: 11500000, guid: ecb5f1b574bde4a468e3abac05a70300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alpha: 100
+  PublicValue: 1
+  pv2: 4
+  isPublic: 0
