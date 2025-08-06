@@ -9,6 +9,6 @@ public class FormatStringTest : MonoBehaviour
         string[] names = { "Iron Man", "Super Man" };
         int[] ages = { 55, 100 };
 
-        Debug.LogFormat({"{0, -20}"});
+        //Debug.LogFormat({"{0, -20}"});
     }
 }
