@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,7 +15,12 @@ public class BitOperator : MonoBehaviour
         uint a = 0b_1100_1010;
         uint b = 0b_1101_1101;
         uint c = a & b;
-        Debug.Debug.Log(Convert.TOstring(c, ToBase:16));
+        Debug.Log($"&: {Convert.ToString(c, toBase: 2)}");
+        c = a | b;
+        Debug.Log($"|: {Convert.ToString(c, toBase: 2)}");
+         c = a ^ b;
+        Debug.Log($"^: {Convert.ToString(c, toBase: 2)}");
+
 
     }
 
